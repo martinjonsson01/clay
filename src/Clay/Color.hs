@@ -11,6 +11,12 @@ import Data.Text.Read as Text
 
 import Clay.Property
 import Clay.Common
+    ( decimalRound,
+      fracMod,
+      Auto(..),
+      Inherit(..),
+      None(..),
+      Other(..) )
 
 -- * Color datatype.
 

@@ -75,6 +75,7 @@ Library
     Clay.Time
     Clay.Transform
     Clay.Transition
+    Clay.AspectRatio
 
   Build-Depends:
     base  >= 4.11 && < 4.20,

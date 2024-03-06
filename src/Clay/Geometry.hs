@@ -25,19 +25,11 @@ import Clay.Property
 import Clay.Stylesheet
 import Clay.Size
 import Clay.AspectRatio
-import Clay.Common
-import Data.Ratio ((%))
 
 -------------------------------------------------------------------------------
 
 aspectRatio :: AspectRatio -> Css
 aspectRatio = key "aspect-ratio"
-
-ex1 :: Css
-ex1 = aspectRatio auto
-ex2 = aspectRatio initial
-ex3 = aspectRatio $ ratio (16 % 9)
-ex4 = aspectRatio $ fallbackRatio (16 % 9) auto
 
 -------------------------------------------------------------------------------
 
